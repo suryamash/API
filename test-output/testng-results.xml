@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12466" started-at="2022-11-10T12:26:05Z" finished-at="2022-11-10T12:26:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12466" started-at="2022-11-10T12:26:05Z" finished-at="2022-11-10T12:26:17Z">
+      <class name="com.test.Sample">
+        <test-method status="PASS" signature="login()[pri:1, instance:com.test.Sample@148080bb]" name="login" duration-ms="4207" started-at="2022-11-10T17:56:05Z" finished-at="2022-11-10T17:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getStateList()[pri:2, instance:com.test.Sample@148080bb]" name="getStateList" duration-ms="459" started-at="2022-11-10T17:56:09Z" finished-at="2022-11-10T17:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStateList -->
+        <test-method status="PASS" signature="getCityList()[pri:3, instance:com.test.Sample@148080bb]" name="getCityList" duration-ms="876" started-at="2022-11-10T17:56:09Z" finished-at="2022-11-10T17:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCityList -->
+        <test-method status="PASS" signature="addUserAddress()[pri:4, instance:com.test.Sample@148080bb]" name="addUserAddress" duration-ms="534" started-at="2022-11-10T17:56:10Z" finished-at="2022-11-10T17:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserAddress -->
+        <test-method status="PASS" signature="UpdateUserAddress()[pri:5, instance:com.test.Sample@148080bb]" name="UpdateUserAddress" duration-ms="533" started-at="2022-11-10T17:56:11Z" finished-at="2022-11-10T17:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUserAddress -->
+        <test-method status="PASS" signature="getuserAddress()[pri:6, instance:com.test.Sample@148080bb]" name="getuserAddress" duration-ms="518" started-at="2022-11-10T17:56:11Z" finished-at="2022-11-10T17:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getuserAddress -->
+        <test-method status="PASS" signature="DeleteUserAddress()[pri:7, instance:com.test.Sample@148080bb]" name="DeleteUserAddress" duration-ms="478" started-at="2022-11-10T17:56:12Z" finished-at="2022-11-10T17:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUserAddress -->
+        <test-method status="PASS" signature="searchproduct()[pri:8, instance:com.test.Sample@148080bb]" name="searchproduct" duration-ms="501" started-at="2022-11-10T17:56:12Z" finished-at="2022-11-10T17:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="Changeprofilepic()[pri:9, instance:com.test.Sample@148080bb]" name="Changeprofilepic" duration-ms="4294" started-at="2022-11-10T17:56:13Z" finished-at="2022-11-10T17:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Changeprofilepic -->
+      </class> <!-- com.test.Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

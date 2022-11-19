@@ -1,0 +1,104 @@
+[
+	{
+		"line": 2,
+		"elements": [
+			{
+				"start_timestamp": "2022-11-10T18:08:24.182Z",
+				"line": 4,
+				"name": "Get stateId from the application through api",
+				"description": "",
+				"id": "stateid-module-api-automation;get-stateid-from-the-application-through-api",
+				"type": "scenario",
+				"keyword": "Scenario",
+				"steps": [
+					{
+						"result": {
+							"duration": 716000000,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "User add header for stateList endpoint",
+						"match": {
+							"location": "com.Stepdefinition.TC2_GetStateIdStep.userAddHeaderForStateListEndpoint()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 1778000000,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "User send \"GET\" request for stateList endpoint",
+						"match": {
+							"arguments": [
+								{
+									"val": "\"GET\"",
+									"offset": 10
+								}
+							],
+							"location": "com.Stepdefinition.TC2_GetStateIdStep.userSendRequestForStateListEndpoint(java.lang.String)"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 3000000,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "User verify the status code is 200",
+						"match": {
+							"arguments": [
+								{
+									"val": "200",
+									"offset": 31
+								}
+							],
+							"location": "com.Stepdefinition.CommonStep.user_verify_the_status_code_is(int)"
+						},
+						"keyword": "Then "
+					},
+					{
+						"result": {
+							"duration": 513000000,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "User verify the stateList response body name present as \"Tamil Nadu\" and get the stateId of Tamil Nadu",
+						"match": {
+							"arguments": [
+								{
+									"val": "\"Tamil Nadu\"",
+									"offset": 56
+								}
+							],
+							"location": "com.Stepdefinition.TC2_GetStateIdStep.userVerifyTheStateListResponseBodyNamePresentAsAndGetTheStateIdOfTamilNadu(java.lang.String)"
+						},
+						"keyword": "Then "
+					}
+				],
+				"tags": [
+					{
+						"name": "@StateId"
+					}
+				]
+			}
+		],
+		"name": "StateId Module API automation",
+		"description": "",
+		"id": "stateid-module-api-automation",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/Feature/TC2_GetStateId.feature",
+		"tags": [
+			{
+				"name": "@StateId",
+				"type": "Tag",
+				"location": {
+					"line": 1,
+					"column": 1
+				}
+			}
+		]
+	}
+]
